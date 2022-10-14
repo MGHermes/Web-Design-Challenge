@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Max Temperature</title>
+    <title>Comparision: Latitude vs X</title>
 
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
@@ -31,7 +31,7 @@
               <span class="icon-bar"></span>
             </button>
             <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Latitude</a>
+              <a class="navbar-brand" href="index.html" id="logo">Latitude</a>
             </div>
           </div>
 
@@ -58,29 +58,50 @@
 
     <!-- Start of container -->
     <div class="description-content">
-      <h1 class="description-header">Max Temperature</h1>
-      <p>
-        <a href="images/Fig1.png">
-          <img src="images/Fig1.png" title = "City Latitude vs. Max Temperature (01/05/17)" alt="Figure #1" width="200" height = "140" id = "description-image">
-        </a>
-        As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of year this data was gathered.
-      </p>
-      <h3 class="description-header">Visualizations</h3>
-      <a href="images/Fig1.png">
-        <img src="images/Fig1.png" title = "City Latitude vs. Max Temperature (01/05/17)" alt="Figure #1" width="200" height = "140">
-      </a>
-      <a href="images/Fig2.png">
-        <img src="images/Fig2.png" title = "City Latitude vs. Max Temperature (01/05/17)" alt="Figure #2" width="200" height = "140">
-      </a>
-      <a href="images/Fig3.png">
-        <img src="images/Fig3.png" title = "City Latitude vs. Max Temperature (01/05/17)" alt="Figure #3" width="200" height = "140">
-      </a>
-      <a href="images/Fig4.png">
-        <img src="images/Fig4.png" title = "City Latitude vs. Max Temperature (01/05/17)" alt="Figure #4" width="200" height = "140">
-      </a>
-    </div>
+      
+      <h1 class = "description-header">Comparision: Latitude vs X</h1>
+        <p>
+          Click any plot to get an in-depth analysis.
+        </p>
 
-    
+      <div class="row">
+        <div class="col-md-6">
+          <center>
+            <h2 class="comparison-header">vs. Max Temperature</h2>
+            <a href="temp.html">
+              <img src="images/Fig1.png" title = "City Latitude vs. Max Temperature (01/05/17)" alt="Figure #1" width="600" height = "400" class="comparison-image" :hover>
+            </a>
+          </center>
+        </div>
+        <div class="col-md-6">
+          <center>
+            <h2 class="comparison-header">vs. Humidity</h2>
+            <a href="humidity.html">
+              <img src="images/Fig2.png" title = "City Latitude vs. Max Temperature (01/05/17)" alt="Figure #2" width="600" height = "400" class="comparison-image" :hover>
+            </a>
+          </center>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <center>
+            <h2 class="comparison-header">vs. Cloudiness</h2>
+            <a href="cloudiness.html">
+              <img src="images/Fig3.png" title = "City Latitude vs. Max Temperature (01/05/17)" alt="Figure #3" width="600" height = "400" class="comparison-image" :hover>
+            </a>
+          </center>
+        </div>
+        <div class="col-md-6">
+          <center>
+            <h2 class="comparison-header">vs. Wind Speed</h2>
+            <a href="wind.html">
+              <img src="images/Fig4.png" title = "City Latitude vs. Max Temperature (01/05/17)" alt="Figure #4" width="600" height = "400" class="comparison-image" :hover>
+            </a>
+          </center>
+        </div>
+      </div>
+
+    </div>
     <!-- End of container -->
 
     <!-- Start of footer -->
